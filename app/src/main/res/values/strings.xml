@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CS3270A5Olson</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="set_change_max">Set Change Max</string>
+    <string name="zero_correct_count">Zero Correct Count</string>
+    <string name="change_total_so_far">Change total so far</string>
+    <string name="practice_making_change">Practice Making Change</string>
+    <string name="_00">$.00</string>
+    <string name="change_to_make">Change to Make</string>
+    <string name="_50">$50</string>
+    <string name="_20">$20</string>
+    <string name="_10">$10</string>
+    <string name="_5">$5</string>
+    <string name="_1">$1</string>
+    <string name="_50Cent">$.50</string>
+    <string name="_25Cent">$.25</string>
+    <string name="_10Cent">$.10</string>
+    <string name="_05Cent">$.05</string>
+    <string name="_01Cent">$.01</string>
+    <string name="start_over">START OVER</string>
+    <string name="new_amount">NEW AMOUNT</string>
+    <string name="time_remaining">Time Remaining</string>
+    <string name="test">Test</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="correct_change_count">Correct Change Count</string>
+    <string name="maximum_change_amount">Maximum Change Amount</string>
+    <string name="save">Save</string>
+    <string name="_00_00">$00.00</string>
+</resources>

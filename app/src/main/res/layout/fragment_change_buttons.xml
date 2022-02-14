@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeButtonsFragment">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/fifty"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/grey"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="@string/_50" />
+
+            <Button
+                android:id="@+id/twenty"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/grey"
+                android:text="@string/_20"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/ten"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/grey"
+                android:text="@string/_10"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/five"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/grey"
+                android:text="@string/_5"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/one"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/grey"
+                android:text="@string/_1"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/fiftyCent"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_50Cent"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/grey"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/twentyFiveCent"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_25Cent"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/grey"
+                android:layout_weight="1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/tenCent"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_10Cent"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/grey"
+                android:layout_weight="1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/fiveCent"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_05Cent"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/grey"
+                android:layout_weight="1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/oneCent"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_01Cent"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/grey"
+                android:layout_weight="1"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </TableRow>
+</TableLayout>
